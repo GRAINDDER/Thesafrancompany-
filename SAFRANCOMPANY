@@ -1,0 +1,149 @@
+
+
+
+*index.html*
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Safran Casting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Peter Safran Casting</h1>
+        <h2>Casting Director & Producer</h2>
+        <img src="peter-safran.jpg" alt="Peter Safran">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Recent Projects</h2>
+        <ul>
+            <li>
+                <h3>The Conjuring Universe</h3>
+                <p>Warner Bros.</p>
+                <img src="conjuring-universe.jpg" alt="The Conjuring Universe">
+            </li>
+            <li>
+                <h3>Aquaman</h3>
+                <p>Warner Bros.</p>
+                <img src="aquaman.jpg" alt="Aquaman">
+            </li>
+            <li>
+                <h3>The Flash</h3>
+                <p>Warner Bros.</p>
+                <img src="the-flash.jpg" alt="The Flash">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <ul>
+            <li>
+                <blockquote>"Peter's passion for casting is contagious. His expertise and dedication are unmatched."</blockquote>
+                <p>— James Wan, Director</p>
+            </li>
+            <li>
+                <blockquote>"Peter's ability to understand the actor's process is remarkable. He's a true collaborator."</blockquote>
+                <p>— Patty Jenkins, Director</p>
+            </li>
+            <li>
+                <blockquote>"Peter's casting skills are exceptional. He finds the perfect fit for every role."</blockquote>
+                <p>— Zack Snyder, Director</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>[Your Email]</p>
+        <p>[Your Phone Number]</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Peter Safran Casting</p>
+    </footer>
+</body>
+</html>
+```
+
+
+*styles.css*
+```
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+```
